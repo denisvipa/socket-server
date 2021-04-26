@@ -1,5 +1,5 @@
 import Server from './clases/server';
 
-const server = new Server();
+const server =  Server.instance;
 
 server.star();
